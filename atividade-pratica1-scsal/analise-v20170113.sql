@@ -22,8 +22,8 @@ USE `analise` ;
 -- Create user
 -- -----------------------------------------------------
 -- DROP USER `sisanalise`@`localhost`;
-CREATE USER `sisanalise`@`localhost` identified by "123456";
-GRANT ALL PRIVILEGES ON analise.* TO `sisanalise`@`localhost`;
+-- CREATE USER `sisanalise `@`localhost` identified by "123456";
+-- GRANT ALL PRIVILEGES ON analise.* TO `sisanalise`@`localhost`;
 FLUSH PRIVILEGES;
 
 -- -----------------------------------------------------
